@@ -28,6 +28,7 @@ def oddRuns(sequence):
     # ADD YOUR CODE HERE
     counter = 0
     zeroesplit = sequence.split("1")
+    print(zeroesplit)
     for zeroes in zeroesplit:
         if len(zeroes)%2 == 1:
             counter +=1
